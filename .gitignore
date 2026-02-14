@@ -1,0 +1,10 @@
+# Python environment
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Safety: ignore any JSON keys if they ever get copied here by mistake
+*.json
