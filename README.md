@@ -37,7 +37,7 @@ In this layer, I transformed raw coordinates into spatial points using `ST_GEOGP
 ### 3. Gold Layer (Fraud Intelligence)
 This layer contains the core business logic. I used a combination of `LAG()` for geospatial comparison and `SUM() OVER` for rolling time-windows.
 
-![Gold Layer Fraud Detection](globalpay-streaming/image.png)
+![Gold Layer Fraud Detection](image.png)
 
 **The "High-Velocity" Threshold:**
 The system flags any customer whose rolling 60-minute spend exceeds **$13,000**, providing real-time risk mitigation.
